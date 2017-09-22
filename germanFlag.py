@@ -10,12 +10,12 @@ yellow = Color(0xffff00,1)
 
 blackOutline = LineStyle(1,black) #(pixels thick,color)
 
-blackRectangle = RectangleAsset(200,30,blackOutline,black)
-redRectangle = RectangleAsset(200,30,blackOutline,red)
-yellowRectangle = RectangleAsset(200,30,blackOutline,yellow)
+blackRectangle = RectangleAsset(100,20,blackOutline,black)
+redRectangle = RectangleAsset(100,20,blackOutline,red)
+yellowRectangle = RectangleAsset(100,20,blackOutline,yellow)
 
 Sprite(blackRectangle)
-Sprite(redRectangle, (0,30))
-Sprite(yellowRectangle, (0,60))
+Sprite(redRectangle, (0,20))
+Sprite(yellowRectangle, (0,40))
 
 App().run()
