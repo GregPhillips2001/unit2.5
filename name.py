@@ -14,7 +14,7 @@ color = Color(color_input, 1)
 text = TextAsset(name, fill = black, style="bold 40pt Times")
 background = RectangleAsset(1000,1000,blackOutline,color)
 
-
 Sprite(background)
 Sprite(text, (400,250))
+
 App().run()
