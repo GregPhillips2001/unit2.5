@@ -8,12 +8,13 @@ black = Color(0x000000,1)
 blackOutline = LineStyle(1,black) #(pixels thick,color)
 
 name = input("Enter your name: ")
-color = input("Enter a RGB color code: ")
+color_input = input("Enter a RGB color code: ")
+color = Color(color_input, 1)
 
-text = TextAsset(name, style="bold 40pt Times")
-background = RectangleAsset(1000, 1000, blacOutline, color)
+text = TextAsset(name, fill = black, style="bold 40pt Times")
+background = RectangleAsset(1000,1000,blackOutline,color)
 
-Sprite(text, (300,300))
+
 Sprite(background)
-
+Sprite(text, (400,250))
 App().run()
