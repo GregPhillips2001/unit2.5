@@ -4,7 +4,7 @@
 
 from ggame import * 
 
-red = Color(0xff0000,1)
+red = Color(0xcc0000,1)
 blue = Color(0x000099,1)
 white = Color(0xffffff,1)
 black = Color(0x000000,1)
