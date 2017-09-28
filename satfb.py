@@ -16,11 +16,12 @@ whiteRectangle = RectangleAsset(500,100,blackOutline,white) #(width,height,outli
 blueRectangle = RectangleAsset(500,100,blackOutline,blue) #(width,height,outline,fill)
 text = TextAsset("SATURDAYS", fill=white, style="bold 40pt Times")
 text2 = TextAsset("ARE_FOR", fill=blue, style="bold 40pt Times")
-text3 = TextAsset("THE BOYS", fill=white, style="bold 40pt Times")
+text3 = TextAsset("THE_BOYS", fill=white, style="bold 40pt Times")
 
 Sprite(redRectangle)
 Sprite(whiteRectangle, (0,100))
 Sprite(blueRectangle, (0,200))
 Sprite(text, (100,25))
 Sprite(text2, (130,125))
+Sprite(text3, (117,225))
 App().run()
